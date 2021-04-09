@@ -1,0 +1,54 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+} 
+
+
+body {
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.social li{
+	width:140px;
+	line-height:138px;
+	border:1px dashed #ffffff;
+	text-align:center;
+	font-size:50px;
+	display:inline-block;
+	border-radius:50%;
+	margin:0 10px;
+	transition:all 0.5s;
+	cursor:pointer;
+}
+
+.social li a{
+	color:#fff;
+}
+
+
+.social li:hover{
+	transform:rotateY(360deg)
+}
+
+.social li.fb:hover{
+	background:#34579f;
+}
+
+.social li.insta:hover{
+	background:#ff6449;
+}
+
+.social li.twitter:hover{
+	background:#00aced;
+}
+
+
+
+
+

@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+} 
+
+body{
+	background:#96c93d;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.progress-wrapper{
+	width: 600px;
+	background:#fff;
+	border-radius: 50px;
+	padding:5px;
+	margin: 10px 0;
+}
+
+.progress-bar {
+	width: 0;
+	height: 40px;
+	border-radius: 50px;
+	animation: barMove 5s linear infinite;
+}
+
+.bar-1{
+	background:repeating-linear-gradient(-40deg, #5cb85c, #5cb85c 20px, #56d856 20px ,#56d856 40px);
+
+}
+
+.bar-2{
+	background:repeating-linear-gradient(-40deg, #5bc0de, #5bc0de 20px, #88dff9 20px ,#88dff9 40px);
+	animation-delay: 0.5s;
+}
+
+.bar-3{
+	background:repeating-linear-gradient(-40deg, #f0ad4e, #f0ad4e 20px, #f5bc6b 20px ,#f5bc6b 40px);
+	animation-delay: 1s;
+}
+
+.bar-4{
+	background:repeating-linear-gradient(-40deg, #d9534f, #d9534f 20px, #f1706c 20px ,#f1706c 40px);
+	animation-delay: 1.5s;
+}
+
+/*===now animation time====*/
+
+@keyframes barMove{
+	0%{
+		width: 0px;
+	}
+
+	100%{
+		width: 100%;
+	}
+}
+

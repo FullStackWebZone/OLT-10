@@ -1,0 +1,130 @@
+ 
+*{
+	margin: 0;
+	padding:0;
+}
+
+ body{
+ 	font-family: 'Open Sans', sans-serif;
+ 	background: #11998e;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 	min-height: 100vh;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+
+ }
+
+ .circle-wrapper{
+ 	width: 300px;
+ 	height: 300px;
+ 	position: relative;
+ }
+
+.user-info{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	border-radius: 50%;
+	/* code for center align all content start here*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	/* code for center align all content end here*/
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+h3{
+	font-size: 30px;
+}
+
+p{
+	font-size: 18px;
+	padding:5px 0;
+}
+
+a{
+	width: 100px;
+	line-height: 100px;
+	color: #000;
+	text-decoration:none;
+	text-align: center;
+	background: #11998e;
+	border-radius: 50%;
+	color: #fff;
+	transition: all 0.5s;
+}
+
+a:hover{
+	transform: rotateY(360deg);
+}
+
+.user-profile{
+
+	width: 100%;
+	height: 100%;
+	background: url(profile.jpg);
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-shadow: inset 0 0 0 15px rgba(255,255,255,0.5);
+	transform-origin: 95% 58%;
+	transition: all 0.5s;
+
+}
+
+ .circle-wrapper:hover .user-profile{
+ 	transform: rotate(140deg);
+ 	}
+
+
+ /*now i will explain you transform-origin*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
